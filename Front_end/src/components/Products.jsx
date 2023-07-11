@@ -5,6 +5,7 @@ import Product from "./Product";
 
 const Container = styled.div`
   flex: 1;
+  flex-wrap: wrap;
   margin: 5px;
   padding: 20px;
   display: flex;
