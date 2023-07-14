@@ -1,20 +1,31 @@
 # FN-Commerce
 
-* Components: 
+## About:
 
-   For the user:
-    - A Landing Page with supplier of a product.
-    - A page to show info and products of the supplier.
-    - A page for the user to see his favorite suppliers.
-    
-    For the Supplier:
-    - A profile page.
-    - A page to manage the request.
-    
-* Functionalites: 
-    - Sign in & Sign up.
-    - A database.
-    - Scheduling.
+This is the front end of an ecommerce i plan to do for a long time.
+I do Plan to make the backend soon with node express and mongodb.
 
+## Technologies:
 
-Stack: MERN
+- HTML/CSS/JS
+- Styled components
+- ReactJS
+
+## How to start
+
+The project was bootstraped with vite so
+
+```
+   # Clone it
+       git clone https://github.com/Marcio-py/FN-Commerce.git
+
+   # Go in the file
+       cd FN-commerce
+
+   # Install de dependencies
+       npm i
+
+   # Execute the code
+       npm run dev
+
+```
