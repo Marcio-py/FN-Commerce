@@ -10,6 +10,7 @@ I do Plan to make the backend soon with node express and mongodb.
 - HTML/CSS/JS
 - Styled components
 - ReactJS
+- Vite
 
 ## How to start
 
