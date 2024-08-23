@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { mobile } from "../Responsive";
+import HomeBar from "../components/HomeBar";
 
 const Container = styled.div`
   width: 100vw;
@@ -62,6 +63,8 @@ const Link = styled.a`
 
 const Login = () => {
   return (
+    <>
+      <HomeBar />
     <Container>
       <Wrapper>
         <Title>SIGN IN</Title>
@@ -74,6 +77,7 @@ const Login = () => {
         </Form>
       </Wrapper>
     </Container>
+    </>
   );
 };
 

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { mobile } from "../Responsive";
+import HomeBar from "../components/HomeBar";
 
 const Container = styled.div`
   width: 100vw;
@@ -60,6 +61,8 @@ const Button = styled.button`
 
 const Register = () => {
   return (
+    <>
+    <HomeBar />
     <Container>
       <Wrapper>
         <Title>CREATE AN ACCOUNT</Title>
@@ -78,6 +81,7 @@ const Register = () => {
         </Form>
       </Wrapper>
     </Container>
+    </>
   );
 };
 

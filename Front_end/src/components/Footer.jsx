@@ -123,7 +123,7 @@ const Footer = () => {
         <Title>Useful Links</Title>
         <ContactItem> 923 567 855</ContactItem>
         <ContactItem>Luanda camama</ContactItem>
-        <ContactItem>contact@lama.dev</ContactItem>
+        <ContactItem>contact@fn.dev</ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
     </Container>
